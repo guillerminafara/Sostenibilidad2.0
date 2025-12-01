@@ -11,7 +11,7 @@ public class BuscadorAvesAPI {
     public static void main(String[] args) {
         try {
             // URL de la API (GET todas las aves)
-            String apiUrl = "http://127.0.0.1:9191/api.php";
+            String apiUrl = "http://192.168.3.111:6661/api.php";
 
             // Realizar la petición GET
             String respuesta = enviarPeticionGET(apiUrl);
